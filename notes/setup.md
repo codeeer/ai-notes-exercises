@@ -7,15 +7,22 @@
 
 ----
 ## VS Code Extensions (Eklentiler):
-* Python (Microsoft)
-* Jupyter (Microsoft)
-* Python Docstring Generator
-* GitLens
-* Thunder Client (API testleri için)
+- Python (Microsoft)
+- Jupyter (Microsoft)
+- Python Docstring Generator
+- GitLens
+- Thunder Client (API testleri için)
 
 ----
 ## n8n install
-* brew install node --> node ve npm i kurar.
+* `brew install node` --> node ve npm i kurar.
+* `https` olarak kalkması için aşağıdaki komutları çalıştırın:
+  ```bash
+  export N8N_SSL_KEY=~/n8n-certs/key.pem
+  export N8N_SSL_CERT=~/n8n-certs/cert.pem
+  export N8N_PORT=5678
+  npx n8n
+  ```
 ---
 ## Twitter post atmak için adım adım yapılması gerekenler.
 ---
