@@ -181,3 +181,4 @@ cython_debug/
 .cursorindexingignore
 
 notes/keyStore.md
+n8n-workflow/social-twitter-workflow.json
