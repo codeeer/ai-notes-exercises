@@ -83,6 +83,11 @@ FastAPI'nin en güçlü özelliklerinden biri, kodunuzdan otomatik olarak intera
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+## Virtual enviroment deactive etmek için: 
+
+```bash
+deactivate
+```
 
 ## Projemizi çalıştırın:
 
